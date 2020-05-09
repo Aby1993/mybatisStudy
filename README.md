@@ -1,0 +1,9 @@
+# rocketmq-demo
+学习rocketmq的代码
+
+demo1是一个基本的使用rocketmq的项目代码。
+demo2是一个按照基本的分类相关的rocketmq的代码。
+另外一个是集成springboot相关的代码，我本地测试的rocketmq集群是一主一从的，到时候修改对应的rocket集群地址即可。
+
+其实代码都是非常基础的，对于rocketmq的使用了解之后，还是需要了解下相关rocketmq的底层原理，namesrv扩容、削减机器以及对应的处理速度这么快的原因，
+甚至相关的重复消费、幂等性、以及死信队列相关的方案，基本的使用看过之后，可以看看杨开元的rocketmq实战与原理解析，从源码层面上了解下相关的rocketmq底层的实现。
